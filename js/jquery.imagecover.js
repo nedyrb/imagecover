@@ -31,7 +31,7 @@
             
             $container.each(function() {
                 var $single      = $(this),
-                    $img         = $single.find('>img').first().css({'position':'absolute'}),
+                    $img         = $single.find('img').first().css({'position':'absolute'}),
                     containerPos = $single.css('position');
                 
                 $single.css({
