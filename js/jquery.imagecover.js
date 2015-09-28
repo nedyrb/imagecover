@@ -145,6 +145,8 @@
                     toggleLoading.call(this);
                 });
                 
+                $single.attr('data-src',$img.attr('src'));
+                
                 $single.css({
                     'background-repeat':'no-repeat',
                     'background-position':'center',
